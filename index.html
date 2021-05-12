@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container min">
+        <header class="parte1">
+            <h1>Datos</h1>
+        </header>
+        <section class="form">
+            <input type="text" class="caja" id="nombres" placeholder="Nombres" required>
+            <button class="boton" onclick="registrar()">Registrar</button>
+        </section>
+    </div>
+    <div class="container max">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Nombres</th>
+                    <th>Accion</th>
+                </tr>
+            </thead>
+            <tbody id="tbd"></tbody>
+        </table>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
